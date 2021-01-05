@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.muncipalitycorporation">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:largeHeap="true"
+        android:hardwareAccelerated="false"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ComplainBox"
+            android:parentActivityName=".MainActivity"></activity>
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Banks"
+            android:parentActivityName=".RegionalPresentation" />
+        <activity
+            android:name=".Stations"
+            android:parentActivityName=".RegionalPresentation" />
+        <activity
+            android:name=".Hospitals"
+            android:parentActivityName=".RegionalPresentation" />
+        <activity
+            android:name=".Cinema"
+            android:parentActivityName=".RegionalPresentation" />
+        <activity
+            android:name=".Shopping_mall"
+            android:parentActivityName=".RegionalPresentation" />
+        <activity
+            android:name=".Hotels_cafes"
+            android:parentActivityName=".RegionalPresentation" />
+        <activity
+            android:name=".Gallery"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".AboutCity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Eguide"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Emunicipality"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".RegionalPresentation"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Projects"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Events"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".News"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Mayor"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "56928909546",
+    "firebase_url": "https://muncipality-corporation.firebaseio.com",
+    "project_id": "muncipality-corporation",
+    "storage_bucket": "muncipality-corporation.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:56928909546:android:ed656679a440ab3cffff93",
+        "android_client_info": {
+          "package_name": "com.example.muncipalitycorporation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "56928909546-uv489d5581b38gal5gmc2ilpf528f2rt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.muncipalitycorporation",
+            "certificate_hash": "fa5888195822da37fc567a94d47d42936b8b58f1"
+          }
+        },
+        {
+          "client_id": "56928909546-dq1baau3bgo2ltiki1ps36c5lh758ihr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDB_anDhkAraYYS8FRidbsRuM6kB3ZQlgk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "56928909546-dq1baau3bgo2ltiki1ps36c5lh758ihr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

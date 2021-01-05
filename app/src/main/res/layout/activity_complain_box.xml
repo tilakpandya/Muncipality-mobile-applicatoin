@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#00A6CC">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:gravity="center_horizontal"
+            android:text="Complain Box"
+            android:textColor="#FDFCFC"
+            android:textSize="40dp"></TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginRight="5dp"
+            android:orientation="vertical"
+            android:weightSum="80">
+
+            <EditText
+                android:id="@+id/name"
+                android:layout_width="388dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:ems="10"
+                android:hint="Enter Your Name"
+                android:inputType="textPersonName"
+                android:textColor="#FDFCFC"/>
+
+
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:ems="10"
+                android:inputType="textEmailAddress"
+                android:hint="Enter Email Address"
+                android:textColor="#FDFCFC"/>
+
+            <EditText
+                android:id="@+id/title"
+                android:layout_width="386dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:ems="10"
+                android:hint="Title of Complain"
+                android:inputType="textPersonName"
+                android:textColor="#FDFCFC"/>
+
+            <EditText
+                android:id="@+id/desc"
+                android:layout_width="387dp"
+                android:layout_height="92dp"
+                android:layout_weight="20"
+                android:ems="10"
+                android:gravity="start|top"
+                android:hint="Description"
+                android:inputType="textMultiLine"
+                android:textColor="#FDFCFC"/>
+
+            <EditText
+                android:id="@+id/address"
+                android:layout_width="387dp"
+                android:layout_height="92dp"
+                android:layout_weight="20"
+                android:ems="10"
+                android:gravity="start|top"
+                android:hint="Location"
+                android:inputType="textMultiLine"
+                android:textColor="#FDFCFC"/>
+
+            <Button
+                android:id="@+id/choose_img"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Photo Choose"
+                android:layout_gravity="left"
+                android:layout_marginRight="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:visibility="visible"
+                android:background="#FFFFFF"/>
+
+            <ImageView
+                android:id="@+id/img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="5dp"
+                android:layout_weight="20"
+                android:scaleType="centerCrop"
+                android:visibility="gone" />
+            <Button
+                android:id="@+id/btn"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="10"
+                android:text="Submit"
+                android:background="#FFFFFF"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

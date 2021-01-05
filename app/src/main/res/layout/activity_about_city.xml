@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutCity"
+    android:background="#00A6CC">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="80dp"
+            android:gravity="center_horizontal"
+            android:text="About City"
+            android:textColor="@color/cardview_light_background"
+            android:textSize="40dp"
+            ></TextView>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_view_aboutcity"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <!--<TableLayout
+            android:layout_width="400dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#DAE8FC">
+
+                <TextView
+                    android:layout_width="152dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:text="Year Of Establishment"
+                    android:textColor="#0C0C0C"
+                    android:textSize="25dp"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="6"
+                    android:text="1867"
+                    android:textColor="#0E0000"
+                    android:textSize="25dp"></TextView>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="2dp"
+                android:background="#F5FFFA">
+
+                <TextView
+                    android:layout_width="156dp"
+                    android:layout_height="55dp"
+                    android:layout_weight="3"
+                    android:text="Taluka"
+                    android:textColor="#0C0707"
+                    android:textSize="25dp" />
+
+                <TextView
+                    android:layout_width="159dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="6"
+                    android:text="Nadiad"
+                    android:textColor="#0C0606"
+                    android:textSize="25dp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="2dp"
+                android:background="#DAE8FC">
+
+                <TextView
+                    android:layout_width="156dp"
+                    android:layout_height="53dp"
+                    android:layout_weight="3"
+                    android:text="Population"
+                    android:textColor="#070606"
+                    android:textSize="25dp"></TextView>
+
+                <TextView
+                    android:layout_width="159dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="6"
+                    android:text="1,92,913"
+                    android:textColor="#0B0000"
+                    android:textSize="25dp"></TextView>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="2dp"
+                android:background="#F5FFFA">
+
+                <TextView
+                    android:layout_width="163dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:text="Number of candidates"
+                    android:textColor="#120707"
+                    android:textSize="25dp"></TextView>
+
+                <TextView
+                    android:layout_width="159dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="6"
+                    android:text="1,51,023"
+                    android:textColor="#0B0606"
+                    android:textSize="25dp"></TextView>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="2dp"
+                android:background="#DAE8FC">
+
+                <TextView
+                    android:layout_width="163dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:text="Number of Wards"
+                    android:textColor="#070707"
+                    android:textSize="25dp"></TextView>
+
+                <TextView
+                    android:layout_width="159dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="6"
+                    android:text="14"
+                    android:textColor="#0B0101"
+                    android:textSize="25dp"></TextView>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="2dp"
+                android:background="#F5FFFA">
+
+                <TextView
+                    android:layout_width="163dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:text="Member of municipality"
+                    android:textColor="#130404"
+                    android:textSize="25dp"></TextView>
+
+                <TextView
+                    android:layout_width="159dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="6"
+                    android:text="42"
+                    android:textColor="#090707"
+                    android:textSize="25dp"></TextView>
+            </TableRow>
+
+        </TableLayout>-->
+    </LinearLayout>
+</ScrollView>

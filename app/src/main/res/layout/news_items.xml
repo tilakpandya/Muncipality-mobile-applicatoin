@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+android:layout_gravity="center"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="30">
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            tools:ignore="Suspicious0dp"
+            android:layout_weight="29">
+            <ImageView
+                android:id="@+id/image_view_news"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/gallery" />
+               <!--- android:layout_marginTop="10dp"-->
+            <!---android:gravity="center_horizontal"-->
+            <TextView
+                android:id="@+id/ntitle1"
+                android:text="Title"
+                android:textColor="@android:color/background_light"
+                android:textSize="30sp"
+                android:background="#A0A03336"
+                android:padding="8dp"
+                android:layout_gravity="bottom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+        </FrameLayout>
+
+        <androidx.cardview.widget.CardView
+                android:id="@+id/news_CardView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <RelativeLayout
+                        android:padding="16dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        >
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/ndesc"
+                            android:justificationMode="inter_word"
+                            android:textColor="@android:color/black"
+                            ></TextView>
+                    </RelativeLayout>
+
+                </ScrollView>
+
+    </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
